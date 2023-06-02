@@ -120,7 +120,7 @@
         android:id="@+id/btn_2"
         android:layout_width="100dp"
         android:layout_height="146dp"
-        android:text="Monkey Mad"
+        android:text="Mad Monkey"
         tools:layout_editor_absoluteX="157dp"
         tools:layout_editor_absoluteY="73dp" />
 
