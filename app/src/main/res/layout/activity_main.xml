@@ -78,7 +78,7 @@
         tools:layout_editor_absoluteY="366dp" />
 
     <Button
-        android:id="@+id/btnDolphin"
+        android:id="@+id/btn_4"
         android:layout_width="100dp"
         android:layout_height="146dp"
         android:text="Dolphin"
@@ -89,15 +89,15 @@
         android:id="@+id/btn_6"
         android:layout_width="100dp"
         android:layout_height="146dp"
-        android:text="Button"
+        android:text="Shaboingboing"
         tools:layout_editor_absoluteX="270dp"
         tools:layout_editor_absoluteY="220dp" />
 
     <Button
-        android:id="@+id/btnPipe"
+        android:id="@+id/btn_5"
         android:layout_width="100dp"
         android:layout_height="146dp"
-        android:text="Metal Pipe"
+        android:text="Fart"
         tools:layout_editor_absoluteX="157dp"
         tools:layout_editor_absoluteY="219dp" />
 
