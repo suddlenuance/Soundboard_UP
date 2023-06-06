@@ -9,14 +9,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SOUNDBOARD"
+        android:text="Animal & Misc.\n SoundBoard"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -54,52 +54,68 @@
         app:layout_constraintGuide_percent="0.5" />
 
     <Button
-        android:id="@+id/btn_7"
+        android:id="@+id/btn_crow"
         android:layout_width="100dp"
         android:layout_height="146dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="366dp" />
+        android:text="Crow"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/btn_dolphin" />
 
     <Button
-        android:id="@+id/btn_8"
+        android:id="@+id/btn_caw"
         android:layout_width="100dp"
         android:layout_height="146dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="366dp" />
+        android:text="FREEDOM"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/btn_moo"
+        app:layout_constraintStart_toEndOf="@+id/btn_crow"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btn_9"
+        android:id="@+id/btn_moo"
         android:layout_width="100dp"
         android:layout_height="146dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="366dp" />
+        android:text="MOO"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btn_4"
+        android:id="@+id/btn_dolphin"
         android:layout_width="100dp"
         android:layout_height="146dp"
         android:text="Dolphin"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="219dp" />
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/btn_6"
+        android:id="@+id/btn_shaboingboing"
         android:layout_width="100dp"
         android:layout_height="146dp"
-        android:text="Shaboingboing"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="220dp" />
+        android:text="Shaboing\nboing"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/btn_5"
+        android:id="@+id/btn_oink"
         android:layout_width="100dp"
         android:layout_height="146dp"
-        android:text="Fart"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="219dp" />
+        android:text="Oink"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/btn_shaboingboing"
+        app:layout_constraintStart_toEndOf="@+id/btn_dolphin"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline8"
@@ -109,28 +125,35 @@
         app:layout_constraintGuide_percent="0.3" />
 
     <Button
-        android:id="@+id/btn_1"
+        android:id="@+id/btn_meow"
         android:layout_width="100dp"
         android:layout_height="146dp"
         android:text="Meow"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="73dp" />
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_dolphin"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <Button
-        android:id="@+id/btn_2"
+        android:id="@+id/btn_monkey"
         android:layout_width="100dp"
         android:layout_height="146dp"
         android:text="Mad Monkey"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="73dp" />
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_oink"
+        app:layout_constraintEnd_toStartOf="@+id/btn_horse"
+        app:layout_constraintStart_toEndOf="@+id/btn_meow"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <Button
-        android:id="@+id/btn_3"
+        android:id="@+id/btn_horse"
         android:layout_width="100dp"
         android:layout_height="146dp"
         android:text="Horse"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="73dp" />
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline10"
@@ -140,27 +163,34 @@
         app:layout_constraintGuide_percent="0.9" />
 
     <Button
-        android:id="@+id/btn_10"
+        android:id="@+id/btn_monster"
         android:layout_width="100dp"
         android:layout_height="146dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="512dp" />
+        android:text="Monster\nthing"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <Button
-        android:id="@+id/btn_11"
+        android:id="@+id/btn_pipe"
         android:layout_width="100dp"
         android:layout_height="146dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="512dp" />
+        android:text="Metal\npipe"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/btn_sheep"
+        app:layout_constraintStart_toEndOf="@+id/btn_monster"
+        app:layout_constraintTop_toBottomOf="@+id/btn_caw" />
 
     <Button
-        android:id="@+id/btn_12"
+        android:id="@+id/btn_sheep"
         android:layout_width="100dp"
         android:layout_height="146dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="512dp" />
+        android:text="Sheep"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
