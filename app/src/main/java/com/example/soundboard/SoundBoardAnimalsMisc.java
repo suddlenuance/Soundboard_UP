@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class SoundBoardAnimalsMisc extends AppCompatActivity {
 
     private Button btnMeow, btnMonkey, btnHorse, btnDolphin, btnOink, btnShaboing, btnCrow, btnCaw, btnMoo, btnMonster, btnPipe, btnSheep;
 
@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.soundboard_animalsmisc);
 
         btnMeow = findViewById(R.id.btn_meow);
         btnMonkey = findViewById(R.id.btn_monkey);
